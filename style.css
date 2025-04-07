@@ -1,6 +1,13 @@
 body {
-  background-color: #0a4491;
+  background: radial-gradient(circle, hsla(218, 100%, 44%, 1) 0%, hsla(210, 100%, 52%, 1) 50%, hsla(241, 100%, 50%, 1) 100%);
+  
+  background: -moz-radial-gradient(circle, hsla(218, 100%, 44%, 1) 0%, hsla(210, 100%, 52%, 1) 50%, hsla(241, 100%, 50%, 1) 100%);
+  background: -webkit-radial-gradient(circle, hsla(218, 100%, 44%, 1) 0%, hsla(210, 100%, 52%, 1) 50%, hsla(241, 100%, 50%, 1) 100%);
+  
+  height: 100vh;
+  margin: 0;
 }
+
 p {
   color: white;
   font-size: 22px;
