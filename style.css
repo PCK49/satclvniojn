@@ -1,16 +1,15 @@
-<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-
 body {
   font-family: 'Comfortaa';
   font-size: 22px;
   background-color: #0a4491;
+  color: white;
 }
-
 p {
   color: white;
   font-family: 'Comfortaa';
 }
 
+/* Style for header */
 h1 {
   color: white;
   font-family: 'Comfortaa';
