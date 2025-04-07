@@ -1,16 +1,14 @@
 body {
-  font-family: 'Comfortaa';
-  font-size: 22px;
   background-color: #0a4491;
 }
 p {
   color: white;
+  font-size: 22px;
   font-family: 'Comfortaa';
 }
-
-/* Style for header */
 h1 {
   color: white;
+  font-size: 22px;
   font-family: 'Comfortaa';
   text-align: center;
 }
