@@ -1,16 +1,18 @@
 <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
 body {
-    font-family: 'Comfortaa';font-size: 22px;
+  font-family: 'Comfortaa';
+  font-size: 22px;
+  background-color: #0a4491;
+}
+
 p {
   color: white;
   font-family: 'Comfortaa';
 }
+
 h1 {
   color: white;
-  font-family:'Comfortaa';
+  font-family: 'Comfortaa';
   text-align: center;
-}
-body {
-  font-family: 'Comfortaa';font-size: 22px;
-  background-color: #0a4491;
 }
