@@ -19,3 +19,13 @@ h1 {
   font-family: 'Comfortaa';
   text-align: center;
 }
+button {
+  background-color: #ffbf00;
+  border-color: #dea704;
+  color: black;
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+button:hover {
+      background-color: #d4a519;
+    }
