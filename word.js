@@ -420,3 +420,8 @@ const vocab={
   "peccadillo": "a minor offense",
   "presage": "to foretell something"
 };
+for (const word in vocab) {
+  if (vocab.hasOwnProperty(word)) {
+    console.log(`${word}: ${vocab[word]}`);
+  }
+}
