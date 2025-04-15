@@ -1,4 +1,3 @@
-  <script>
 const vocab={
   "superfluous":" unnecessary; extra",
   "litany": "a prayer or chant; a long list",
