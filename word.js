@@ -420,8 +420,9 @@ const vocab={
   "peccadillo": "a minor offense",
   "presage": "to foretell something"
 };
+const list = document.getElementById('vocab-list');
 for (const word in vocab) {
   if (vocab.hasOwnProperty(word)) {
-    console.log(`${word}: ${vocab[word]}`);
-  }
-}
+      const li = document.createElement('li');
+      li.innerHTML = `<span class="word">${word}</span>: ${vocab[word]}`;
+      list.appendChild(li);
