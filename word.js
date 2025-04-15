@@ -1,3 +1,4 @@
+  <script>
 const vocab={
   "superfluous":" unnecessary; extra",
   "litany": "a prayer or chant; a long list",
@@ -420,9 +421,11 @@ const vocab={
   "peccadillo": "a minor offense",
   "presage": "to foretell something"
 };
-const list = document.getElementById('vocab-list');
-for (const word in vocab) {
-  if (vocab.hasOwnProperty(word)) {
-      const li = document.createElement('li');
-      li.innerHTML = `<span class="word">${word}</span>: ${vocab[word]}`;
-      list.appendChild(li);
+
+    const list = document.getElementById('vocab-list');
+    for (const word in vocab) {
+      if (vocab.hasOwnProperty(word)) {
+        const li = document.createElement('li');
+        li.innerHTML = `<span class="word">${word}</span>: ${vocab[word]}`;
+        list.appendChild(li);
+      }
