@@ -420,11 +420,22 @@ const vocab={
   "peccadillo": "a minor offense",
   "presage": "to foretell something"
 };
+
 const list = document.getElementById('vocab-list');
+
 for (const word in vocab) {
   if (vocab.hasOwnProperty(word)) {
     const li = document.createElement('li');
-    li.innerHTML = `<span class="word">${word}</span>: ${vocab[word]}`;
+    
+    // Apply inline styles directly here
+    li.style.backgroundColor = 'white';
+    li.style.border = '1px solid #ccc';
+    li.style.borderRadius = '8px';
+    li.style.padding = '12px';
+    li.style.marginBottom = '10px';
+    li.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
+    
+    li.innerHTML = `<span class="word" style="font-weight: bold; color: #2a7ae2; text-transform: capitalize;">${word}</span>: ${vocab[word]}`;
     list.appendChild(li);
   }
 }
