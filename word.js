@@ -420,22 +420,23 @@ const vocab={
   "peccadillo": "a minor offense",
   "presage": "to foretell something"
 };
-
 const list = document.getElementById('vocab-list');
 
 for (const word in vocab) {
   if (vocab.hasOwnProperty(word)) {
     const li = document.createElement('li');
-    
-    // Apply inline styles directly here
+
+    // Style the whole vocab box
     li.style.backgroundColor = 'white';
     li.style.border = '1px solid #ccc';
-    li.style.borderRadius = '8px';
-    li.style.padding = '12px';
-    li.style.marginBottom = '10px';
-    li.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
+    li.style.borderRadius = '10px';
+    li.style.padding = '15px';
+    li.style.marginBottom = '12px';
+    li.style.boxShadow = '2px 2px 8px rgba(0, 0, 0, 0.1)';
+    li.style.textTransform = 'capitalize'; // Capitalizes both word and definition
+
+    // You can still style the word separately if you want
+    li.innerHTML = `<span class="word" style="font-weight: bold; color: #2a7ae2;">${word}</span>: ${vocab[word]}`;
     
-    li.innerHTML = `<span class="word" style="font-weight: bold; color: #2a7ae2; text-transform: capitalize;">${word}</span>: ${vocab[word]}`;
     list.appendChild(li);
   }
-}
