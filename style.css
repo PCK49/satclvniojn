@@ -20,6 +20,8 @@ h1 {
   font-family: 'Comfortaa';
 }
 button {
+  display: block;
+  margin: 0 auto;
   padding: 10px 20px;
   background-color: #ffbf00;
   border: 1px solid #dea704;
