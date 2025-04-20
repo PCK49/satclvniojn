@@ -9,17 +9,20 @@ body {
 }
 
 p {
+  text-align: center;
   color: white;
   font-size: 22px;
   font-family: 'Comfortaa';
 }
 h1 {
+  text-align: center;
   color: white;
   font-size: 22px;
   font-family: 'Comfortaa';
   text-align: center;
 }
 button {
+  text-align: center;
   padding: 10px 20px;
   background-color: #ffbf00;
   border-color: #dea704;
