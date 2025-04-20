@@ -19,16 +19,14 @@ h1 {
   color: white;
   font-size: 22px;
   font-family: 'Comfortaa';
-  text-align: center;
 }
 button {
-  text-align: center;
   padding: 10px 20px;
   background-color: #ffbf00;
-  border-color: #dea704;
+  border: 1px solid #dea704;
   color: black;
   font-family: 'Comfortaa';
-  text-align: center;
+  cursor: pointer;
 }
 button:hover {
       background-color: #d4a519;
